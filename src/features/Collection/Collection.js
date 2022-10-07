@@ -1,0 +1,99 @@
+import Card from "../../components/Card";
+import { GridBox } from "../../components/styles/GridBox.styled";
+import { StyledHeader } from "../../components/styles/StyledHeader.styled";
+
+function Collection() {
+  return (
+    <div>
+      <StyledHeader>Collection</StyledHeader>
+      <GridBox>
+        <Card
+          className="box"
+          imgSrc="/img/img_avatar2.png"
+          brand={"GBC"}
+          id={888}
+          price="9.99"
+        />
+        <Card
+          className="box"
+          imgSrc="/img/img_avatar2.png"
+          brand={"GBC"}
+          id={888}
+          price="9.99"
+        />
+        <Card
+          className="box"
+          imgSrc="/img/img_avatar2.png"
+          brand={"GBC"}
+          id={888}
+          price="9.99"
+        />
+        <Card
+          className="box"
+          imgSrc="/img/img_avatar2.png"
+          brand={"GBC"}
+          id={888}
+          price="9.99"
+        />
+        <Card
+          className="box"
+          imgSrc="/img/img_avatar2.png"
+          brand={"GBC"}
+          id={888}
+          price="9.99"
+        />
+        <Card
+          className="box"
+          imgSrc="/img/img_avatar2.png"
+          brand={"GBC"}
+          id={888}
+          price="9.99"
+        />
+        <Card
+          className="box"
+          imgSrc="/img/img_avatar2.png"
+          brand={"GBC"}
+          id={888}
+          price="9.99"
+        />
+        <Card
+          className="box"
+          imgSrc="/img/img_avatar2.png"
+          brand={"GBC"}
+          id={888}
+          price="9.99"
+        />
+        <Card
+          className="box"
+          imgSrc="/img/img_avatar2.png"
+          brand={"GBC"}
+          id={888}
+          price="9.99"
+        />
+        <Card
+          className="box"
+          imgSrc="/img/img_avatar2.png"
+          brand={"GBC"}
+          id={888}
+          price="9.99"
+        />
+        <Card
+          className="box"
+          imgSrc="/img/img_avatar2.png"
+          brand={"GBC"}
+          id={888}
+          price="9.99"
+        />
+        <Card
+          className="box"
+          imgSrc="/img/img_avatar2.png"
+          brand={"GBC"}
+          id={888}
+          price="9.99"
+        />
+      </GridBox>
+    </div>
+  );
+}
+
+export default Collection;

@@ -1,0 +1,4 @@
+// in Home.js
+// load top 15 from looksrare api of collections
+// create a list of top 15 collections
+

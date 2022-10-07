@@ -1,24 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Collection from "./features/Collection/Collection";
+import Collections from "./features/Collections/Collections";
+import { Container } from "./components/styles/Container.styled";
+import { Redirect, Route, Switch } from "react-router-dom";
 
 function App() {
+  const ROUTES = {
+    COLLECTIONS: "/collections",
+    COLLECTION: "/collection/:address",
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <main>
+      <Switch>
+        <Route exact path="/">
+          <Redirect to={ROUTES.COLLECTIONS} />
+        </Route>
+        <Route path={ROUTES.COLLECTIONS}>
+          <Collections />
+        </Route>
+        <Route path={ROUTES.COLLECTION}>
+          <Container>
+            <Collection />
+          </Container>
+        </Route>
+      </Switch>
+    </main>
   );
 }
 
