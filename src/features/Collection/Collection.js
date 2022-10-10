@@ -1,11 +1,11 @@
 import Card from "../../components/Card";
 import { GridBox } from "../../components/styles/GridBox.styled";
-import { StyledHeader } from "../../components/styles/StyledHeader.styled";
+
+import Header from "../Header/Header";
 
 function Collection() {
   return (
     <div>
-      <StyledHeader>Collection</StyledHeader>
       <GridBox>
         <Card
           className="box"

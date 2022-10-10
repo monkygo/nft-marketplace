@@ -1,4 +1,8 @@
-// in Home.js
-// load top 15 from looksrare api of collections
-// create a list of top 15 collections
+- work on redux and thunk for api calls
+- left off at Collections.js and ListView.js 
+
+
+- in Home.js
+- load top 15 from looksrare api of collections
+- create a list of top 15 collections
 
